@@ -1,0 +1,127 @@
+
+        body {
+            scroll-behavior: smooth;
+            /* background-color: rgb(245, 202, 202); */
+            
+        }
+
+        .heading {
+            display: flex;
+            width: 100%;
+            height: 60px;
+            border: 1px solid black;
+            justify-content: space-between;
+            /* padding: 5px; */
+            font-size: 25px;
+            text-align: center;
+            background-color: rgb(224, 104, 24);
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            align-items: center;
+
+        }
+
+        .heading p {
+            font-weight: 900;
+            text-align: center;
+        }
+
+        img {
+
+            height: 64px;
+
+
+        }
+        .img{
+            size: 200px;
+        }
+        .img img{
+            height: 150px;
+            width: 280px;
+        }
+
+        .documents {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            background: rgba(240, 239, 235, 0.877);
+            /* height: 100vh; */
+            row-gap: 10px;
+            column-gap: 10px;
+            align-content: flex-start;
+        padding: 0px 20px;
+        }
+
+        .card {
+            border: 1px solid black;
+            margin: 10px 0px;
+            width: 200px;
+            height: 250px;
+         
+        }
+
+        .card:hover {
+            background-color: rgb(243, 201, 63);
+        }
+
+         .card ul li{
+                text-decoration: underline;
+                text-transform: capitalize;
+                list-style: none;
+            }
+
+        .area {
+            background-color: rgb(235, 165, 74);
+            display: flex;
+            flex-wrap: wrap;
+            border-radius: 10px;
+       
+        }
+
+        .area li:hover {
+            background-color: cornsilk;
+        }
+
+        .area li {
+            padding: 5px;
+            border: 1px solid black;
+            margin: 5px;
+            display: inline-block;
+            border-radius: 10px;
+
+        }
+
+        .nav ul li {
+            display: inline-block;
+            font-size: 20px;
+            margin: 10px;
+
+
+
+        }
+        .nav ul li a{
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .nav ul li a:hover{
+            color: red;
+        }
+        .nav {
+            background-color: rgb(134, 233, 233);
+
+
+
+
+        }
+
+        .contact {
+            height: 100vh;
+            padding: 10px;
+            background-color: rgb(253, 250, 255);
+       
+        }
+        .all{
+            text-transform: inherit;
+        }
